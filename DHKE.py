@@ -1,7 +1,7 @@
 from Crypto.Util import number
 import random
 
-prime = number.getPrime(64) # Gets a random 64-bit prime number
+prime = number.getPrime(2024) # Gets a random 64-bit prime number
 print(f"Agreed upon prime: {prime}")
 
 base_choices = [2, 3, 5]
